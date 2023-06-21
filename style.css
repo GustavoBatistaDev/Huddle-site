@@ -244,6 +244,18 @@ p{
     
 }
 
+@media(max-width: 1200px){
+    input[type="text"] {
+        width: 100px !important;
+    }
+    input[type="submit"]{
+      margin-top: 10px;
+      margin-left: -50px ;
+       
+    }
+   
+}
+
 
 .end{
     
@@ -271,3 +283,4 @@ input[type="submit"]{
     background-color: var(--Pink);
     
 }
+
