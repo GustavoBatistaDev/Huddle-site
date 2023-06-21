@@ -1,0 +1,273 @@
+
+:root{
+
+--Pink: hsl(322, 100%, 66%);
+--Light: hsl(321, 100%, 78%);
+--LightRed: hsl(0, 100%, 63%);
+
+--Cyan: hsl(192, 100%, 9%);
+--Blue: hsl(207, 100%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header button{
+    border: 1px solid var(--Pink);
+    outline: none;
+    background-color: white;
+ 
+    color: var(--Pink);
+    border-radius: 18px;
+    padding: 5px 30px;
+}
+
+header button:hover{
+    box-shadow: 0px 0px 2px 2px  hsla(322, 100%, 66%, 0.161);;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.0em;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+}
+
+.footer-logo{
+    padding-top: 220px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 49px;
+}
+
+.socials{
+    margin-top: 75px;
+    margin-left: -6px;
+}
+
+
+.containerr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* ou outra altura desejada */
+  }
+
+
+.container-paragrafy{
+    width: 40%;
+}
+
+.main-button{
+    border: 1px solid var(--Pink);
+    outline: none;
+    background-color: var(--Pink);
+ 
+    color: white;
+    border-radius: 35px;
+    padding: 17px 80px;
+
+}
+
+.main-button:hover{
+    box-shadow: 0px 0px 5px 2px  hsla(322, 100%, 66%, 0.51);;
+  
+
+}
+.section-together{
+    background-color: var(--Blue);
+}
+
+.container-image{
+    margin-right: 110px;
+}
+
+.title{
+    font-family: 'Heebo', sans-serif;
+    font-size:64px;
+    font-weight: bold;
+}
+
+.paragrafy{
+    color: rgb(160, 160, 160);
+}
+
+.three-section{
+    background-image: url('project/images/wave.svg');
+    background-repeat: repeat-x;
+}
+
+ h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+
+
+
+@media(max-width: 1303px) and (min-width: 1201px){
+   
+    .three img{
+        height: 440px;
+    }
+    .for img{
+        height: 350px;
+    }
+    .container .main-img{
+        width: 900px;
+    }
+}
+@media(max-width: 1200px) and (min-width: 1101px) {
+    
+    .three img{
+        height: 350px;
+    }
+    .for img{
+        height: 330px;
+    }
+    .container .main-img{
+        width: 900px;
+    }
+    
+}
+
+@media(max-width: 1100px) and (min-width:994px) {
+
+    h1{
+        font-size: 2em;
+    }
+    
+    .three img{
+        height: 350px;
+    }
+    .for img{
+        height: 330px;
+    }
+    .container .main-img{
+        width: 700px;
+    }
+    
+}
+
+
+@media(max-width: 993px) and (min-width: 793px)  {
+
+    h1{
+        font-size: 2em;
+    }
+
+
+    
+    
+    .three img{
+        height: 250px;
+    }
+    .for img{
+        height: 250px;
+    }
+    .container .main-img{
+        width: 700px;
+    }
+    
+}
+
+
+@media(max-width: 792px)and (min-width:540px) {
+
+    h1{
+        font-size: 1.4em;
+    }
+
+
+
+    .main-button{
+        border: 1px solid var(--Pink);
+        outline: none;
+        background-color: var(--Pink);
+        padding: 10px 30px;
+        color: white;
+        border-radius: 35px;
+        
+    
+    }
+    
+    
+    .three img{
+        height: 240px;
+    }
+    .for img{
+        height: 240px;
+    }
+    .container .main-img{
+        width: 500px;
+    }
+    
+}
+
+@media(max-width: 539px){
+
+    h1{
+        font-size: 1em;
+    }
+
+
+
+    .main-button{
+        border: 1px solid var(--Pink);
+        outline: none;
+        background-color: var(--Pink);
+        padding: 10px 10px;
+        color: white;
+        border-radius: 35px;
+        
+    
+    }
+    
+    
+    .three img{
+        height: 240px;
+    }
+    .for img{
+        height: 240px;
+    }
+    .container .main-img{
+        width: 350px;
+    }
+    
+}
+
+
+.end{
+    
+    background-color: #01262F ;
+    margin-top: -50px;
+}
+
+input[type="text"]{
+    margin-left: 5px;
+    border-radius: 6px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 300px !important;
+}
+
+
+input[type="submit"]{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 30px !important;
+    color: white;
+    background-color: var(--Pink);
+    
+}
